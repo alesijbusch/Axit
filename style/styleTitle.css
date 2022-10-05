@@ -1,0 +1,28 @@
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title .title__main{
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.title .title__line{
+    width: 170px;
+    border: 1px solid #EC7979;
+    background: #EC7979;
+    margin: 0 auto; 
+    margin-top: 50px;
+}
+
+.title .title__sub{
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #86878B;
+}

@@ -1,0 +1,33 @@
+.about {
+    margin: 70px -15px 60px -15px;
+}
+
+.about .about-block{
+    display: inline-block;
+    width: calc(33% - 30px);
+    margin: 0 15px;
+    box-sizing: border-box;
+}
+
+.about .about-block .about-block__img{
+    display: block;
+    margin: 0 auto;
+
+}
+
+.about .about-block .about-block__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 20px;
+    
+}
+
+.about .about-block .about-block__text{
+    text-align: center;
+    margin: 50px 10px 0;
+    line-height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+}

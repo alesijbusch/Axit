@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+    src: url("../fonts/RalewayRegular/RalewayRegular.woff2") format("woff2"),
+         url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+         url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+         
+} 
+
+@font-face {
+    font-family: "OpenSansRegular";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.woff2") format("woff2"),
+         url("../fonts/OpenSansRegular/OpenSansRegular.woff")  format("woff"),
+         url("../fonts/OpenSansRegular/OpenSansRegular.ttf")  format("truetype");
+         
+} 
+
+@font-face {
+    font-family: "OpenSansBold";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold/OpenSansBold.woff2") format("woff2"),
+         url("../fonts//OpenSansBold/OpenSansBold.woff") format("woff"),
+         url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+         
+} 
+
+@font-face {
+    font-family: "OpenSansSemiBold";
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff2") format("woff2"),
+         url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+         url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+         
+} 
