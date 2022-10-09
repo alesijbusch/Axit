@@ -1,0 +1,25 @@
+.footer{
+    background-color: #000;
+    padding: 32px 0 27px;
+}
+
+.soc {
+    width: 635px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.soc .soc-item{
+    display: inline-block;
+    margin-right: 33px;
+    
+}
+
+.copy{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
