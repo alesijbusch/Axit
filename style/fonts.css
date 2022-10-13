@@ -10,6 +10,17 @@
 } 
 
 @font-face {
+    font-family: "RalewayBold";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/RalewayBold/RalewayBold.eot");
+    src: url("../fonts/RalewayBold/RalewayBold.woff2") format("woff2"),
+         url("../fonts/RalewayBold/RalewayBold.woff") format("woff"),
+         url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+         
+}
+
+@font-face {
     font-family: "OpenSansRegular";
     font-weight: 400;
     font-style: normal;

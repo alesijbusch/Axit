@@ -81,14 +81,14 @@
     background: #AB4949;
 }
 
-.tabs .tabs-content .tabs-content__left{
+.tabs .tabs-content .tabs-content-left{
     width: 470px;
     display: inline-block;
     border-top: 1px solid #C6CBCD;
     height: 500px;
 }
 
-.tabs .tabs-content .tabs-content__left .tabs-content-left__img{
+.tabs .tabs-content .tabs-content-left .tabs-content-left__img{
     display: block;
     width: 100%;
     height: 100%;

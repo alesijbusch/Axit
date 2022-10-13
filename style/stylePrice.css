@@ -1,0 +1,72 @@
+
+.pricing-grey{
+    background-color: #F5F5F5;
+    padding-top: 60px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 50px;
+    text-align: center;
+}
+
+.pricing .pricing-block {
+    flex-basis:  370px;
+    margin-top: 20px;
+}
+
+.pricing .pricing-block:nth-child(2){
+    margin-top: 0;
+}
+
+.pricing .pricing-block .pricing-block__title{
+    background: #333333;
+    border-bottom: 2px solid #F5F5F5;
+    font-family: 'OpenSansBold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+    padding: 12px 0;
+}
+
+.pricing .pricing-block .pricing-block__price{
+    background: #333333;
+    border-bottom: 2px solid #F5F5F5; 
+    font-family: 'RalewayBold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+    padding: 28px 0;
+}
+
+.pricing .pricing-block .pricing-block__free{
+    background: #333333;
+    border-bottom: 2px solid #F5F5F5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 13px 0;
+}
+
+.pricing .pricing-block .pricing-block-options .pricing-block-options__item{
+    background: #FFFFFF;
+    border-bottom: 2px solid #F5F5F5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    padding: 13px 0;
+    
+}
+
+.pricing .pricing-block .pricing-block-options__shadow{
+    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
+}
