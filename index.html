@@ -8,14 +8,108 @@
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="style/styleTitle.css">
+    <link rel="stylesheet" href="style/styleButton.css">
+    <link rel="stylesheet" href="style/styleSocial.css">
     <link rel="stylesheet" href="style/styleAbout.css">
     <link rel="stylesheet" href="style/styleTabs.css">
     <link rel="stylesheet" href="style/stylePrice.css">
+    <link rel="stylesheet" href="style/styleReviews.css">
+    <link rel="stylesheet" href="style/styleDesign.css">
+    <link rel="stylesheet" href="style/styleContact.css">
+    <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <link rel="stylesheet" href="style/main.css">
 </head>
 <body>  
+    <header class="header">
+        <div class="line">
+            <div class="container">
+                <div class="line-wrap">
+                    <div class="line-wrap-item">
+                        <img class="line-wrap-item__logo" src="images/logo.png" alt="Axit">
+                    </div>
+                    <div class="line-wrap-item">
+                        <nav class="navigation">
+                            <ul class="navigation__list">
+                                <li class="navigation__item"><a href="#" class="navigation__link">features</a></li>
+                                <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
+                                <li class="navigation__item"><a href="#" class="navigation__link">Pricing</a></li>
+                                <li class="navigation__item"><a href="#" class="navigation__link">Reviews</a></li>
+                                <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-bg">
+            <div class="container">
+                <div class="banner">
+                    <div class="banner-left">
+                        <img src="images/logo-banner.png" alt="Axit" class="banner-left__logo">
+                        <h1 class="banner-left__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                        <div class="banner-left__line"></div>
+                        <div class="banner-left__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                        <div class="banner-left__button">
+                            <button class="btn btn-transparent">
+                                Download
+                            </button>
+                        </div>
+                    </div>
+                    <div class="banner-right">
+                        <div class="free">
+                            <div class="free__title">Try Your <span class="free__title--color"> FREE </span> Trial Today</div>
+                            <form action="" class="free-form">
+                                <div class="free-form-item">
+                                    <input type="text" placeholder="Name" class="free-form__input">
+                                    <input type="email" placeholder="Email" class="free-form__input">
+                                    <input type="password" placeholder="Password" class="free-form__input">
+                                </div>
+                                <button class="free-form__btn">Get Started</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <main class="main">
+        <!-- block social -->
+        <section class="social-padding">
+            <div class="container">
+                <div class="social">
+                    <div class="social-left">
+                        <div class="social-item__title">Social Media</div>
+                        <div class="social-item__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Aenean euismod bibendum laoreet.
+                        </div>
+                    </div>
+                    <div class="social-right">
+                        <a href="#" class="social-right__link">
+                            <img src="images/icon-social/social-facebook_icon.svg" alt="facebook" class="social-right__img">
+                        </a>
+                        <a href="#" class="social-right__link">
+                            <img src="images/icon-social/social-twitter_icon.svg" alt="twitter" class="social-right__img"></a>
+                        <a href="#" class="social-right__link"><img src="images/icon-social/social-linkedin_icon.svg" alt="linkedin" class="social-right__img">
+                        </a>
+                        <a href="#" class="social-right__link">
+                            <img src="images/icon-social/social-pinterest_icon.svg" alt="pinterest" class="social-right__img">
+                        </a>
+                        <a href="#" class="social-right__link">
+                            <img src="images/icon-social/social-instagram_icon.svg" alt="instagram" class="social-right__img">
+                        </a>
+                        <a href="#" class="social-right__link">
+                            <img src="images/icon-social/social-github_icon.svg" alt="github" class="social-right__img">
+                        </a>
+                        <a href="#" class="social-right__link">
+                            <img src="images/icon-social/social-rss_icon.svg" alt="rss" class="social-right__img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- block tabs -->
         <section>
@@ -45,9 +139,14 @@
                                     bibendum laoreet.
                                 </p>
                             </div>
-                            <button class="tabs-content-right__button">
+                            <!-- <button class="tabs-content-right__button">
                                 Download
-                            </button>
+                            </button> -->
+                            <div class="tabs-content-right__button">
+                                <button class="btn">
+                                    Download
+                                </button>
+                            </div>
                         </div>
                         <div class="tabs-content-left">
                             <img class="tabs-content-left__img" src="images/tab.jpg" alt="">
@@ -187,6 +286,119 @@
                 </div>
             </div>
         </section>
+
+        <!-- block reviews -->
+
+        <section class="review">
+            <div class="container">
+                <div class="title">
+                    <h2 class="title__main">what our customers are saying</h2>
+                    <div class="title__line"></div>
+                    <div class="title__sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+                <div class="reviews">
+                    <div class="reviews-block">
+                        <div class="reviews-block__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </div>
+                        <div class="reviews-block__triangle"></div>
+                        <div class="reviews-block-user">
+                            <img class="reviews-block-user__img" src="images/review1.png" alt="">
+                            <div class="reviews-block-user-wrap">
+                                <div class="reviews-block-user-wrap__name">Davis Rhiel Madsen</div>
+                                <div class="reviews-block-user-wrap__profession">Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-block">
+                        <div class="reviews-block__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </div>
+                        <div class="reviews-block__triangle"></div>
+                        <div class="reviews-block-user">
+                            <img class="reviews-block-user__img" src="images/review2.png" alt="">
+                            <div class="reviews-block-user-wrap">
+                                <div class="reviews-block-user-wrap__name">Jaydon Rosser</div>
+                                <div class="reviews-block-user-wrap__profession">Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-block">
+                        <div class="reviews-block__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </div>
+                        <div class="reviews-block__triangle"></div>
+                        <div class="reviews-block-user">
+                            <img class="reviews-block-user__img" src="images/review3.png" alt="">
+                            <div class="reviews-block-user-wrap">
+                                <div class="reviews-block-user-wrap__name">Cooper Dorwart</div>
+                                <div class="reviews-block-user-wrap__profession">Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- block design -->
+        <section class="design-padding">
+            <div class="container">
+                <div class="design">
+                    <div class="title title-design">
+                        <h2 class="title__main">STYLISH AXURE DESIGN</h2>
+                        <div class="title__line title-design__line"></div>
+                        <div class="title__sub title-design__sub">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</div>
+                    </div>
+                    <div class="design-button">
+                        <button class="btn btn-transparent btn-design">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- block contact -->
+        <section class="contact-padding">
+            <div class="container">
+                <div class="title">
+                    <h2 class="title__main">contact us</h2>
+                    <div class="title__line"></div>
+                    <div class="title__sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+                <div class="contact">
+                    <form action="" class="contact-form">
+                        <div class="contact-form-top">
+                            <div class="contact-form-item">
+                                <input type="text" placeholder="Name" class="contact-form__input">
+                                <input type="email" placeholder="Email" class="contact-form__input">
+                                <input type="password" placeholder="Password" class="contact-form__input">
+                            </div>
+                            <div class="contact-form-item">
+                                <textarea name="text" rows="5" placeholder="Message" class="contact-form__textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="contact-form-button">
+                            <button class="btn btn-contact">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- block footer -->
@@ -194,25 +406,39 @@
         <div class="container">
             <div class="soc">
                 <div class="soc-item">
-                    <img class="soc-item__icon" src="images/icon/facebook_icon.svg" alt="">
+                    <a href="#" class="soc-item__link">
+                        <img class="soc-item__icon" src="images/icon/facebook_icon.svg" alt="facebook">
+                    </a>
                 </div>
                 <div class="soc-item">
-                    <img class="soc-item__icon" src="images/icon/twitter_icon.svg" alt="">
+                    <a href="#" class="soc-item__link">
+                        <img class="soc-item__icon" src="images/icon/twitter_icon.svg" alt="twitter">
+                    </a>
                 </div>
                 <div class="soc-item">
-                    <img class="soc-item__icon" src="images/icon/linkedin_icon.svg" alt="">
+                    <a href="#" class="soc-item__link">
+                        <img class="soc-item__icon" src="images/icon/linkedin_icon.svg" alt="linkedin">
+                    </a>
                 </div>
                 <div class="soc-item">
-                    <img class="soc-item__icon" src="images/icon/pinterest_icon.svg" alt="">
+                    <a href="#" class="soc-item__link">
+                        <img class="soc-item__icon" src="images/icon/pinterest_icon.svg" alt="pinterest">
+                    </a>
                 </div>
                 <div class="soc-item">
-                    <img class="soc-item__icon" src="images/icon/instagram_icon.svg" alt="">
+                    <a href="#" class="soc-item__link">
+                        <img class="soc-item__icon" src="images/icon/instagram_icon.svg" alt="instagram">
+                    </a>
                 </div>
                 <div class="soc-item">
-                    <img class="soc-item__icon" src="images/icon/github_icon.svg" alt="">
+                    <a href="#" class="soc-item__link">
+                        <img class="soc-item__icon" src="images/icon/github_icon.svg" alt="github">
+                    </a>
                 </div>
                 <div class="soc-item">
-                    <img class="soc-item__icon" src="images/icon/rss_icon.svg" alt="">
+                    <a href="#" class="soc-item__link">
+                        <img class="soc-item__icon" src="images/icon/rss_icon.svg" alt="rss">
+                    </a>
                 </div>
             </div>
             <div class="copy">

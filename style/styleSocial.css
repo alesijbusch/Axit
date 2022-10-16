@@ -1,0 +1,47 @@
+.social-padding{
+    padding: 18px 0;
+    background: #F8EFEF;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social .social-item__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.social .social-item__text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin-top: 25px;
+}
+
+.social .social-left{
+    flex-basis: 470px;
+}
+
+.social .social-right{
+    flex-basis: 670px;
+}
+
+.social .social-right .social-right__link{
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.social .social-right .social-right__link:last-child{
+    margin-right: 0;
+}

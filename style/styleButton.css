@@ -1,0 +1,56 @@
+.btn{
+    background: #EC7979;
+    width: 270px;
+    height: 58px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    border: 2px solid #EC7979;
+    cursor: pointer;
+    display: block;
+    transition: .5s ease;
+} 
+
+.btn:hover{
+    border: 2px solid #AB4949;
+    background: #AB4949;
+    
+}
+
+.btn:active{
+    border: 2px solid #AB4949;
+    color: #fff ;
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+
+.btn.btn-transparent:hover{
+    border: 2px solid #AB4949;
+    color: #fff;
+}
+
+.btn.btn-transparent:active{
+    border: 2px solid #AB4949;
+    color: #fff ;
+    background: #AB4949;
+}
+
+.btn.btn-transparent{
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+
+.btn.btn-design{
+    width: 370px;
+    margin: 0 auto;
+}
+
+.btn.btn-contact{
+    width: 370px;
+    margin: 0 auto;
+}

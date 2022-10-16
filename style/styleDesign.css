@@ -1,0 +1,10 @@
+.design-padding{
+    padding: 80px 0 50px;
+    background: no-repeat center url(../images/design.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.design .design-button{
+    margin-top: 70px;
+}

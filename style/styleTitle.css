@@ -26,3 +26,16 @@
     font-weight: 400;
     color: #86878B;
 }
+
+.title.title-design{
+    color: #fff;
+}
+
+.title .title-design__line{
+    border: 1px solid #fff;
+    background: #fff;
+}
+
+.title .title-design__sub{
+    color: #fff;
+}
