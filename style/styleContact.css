@@ -22,7 +22,7 @@
     border-bottom: 1px solid #BDBDBD;
     width: 100%;
     outline: 0;
-    font-family: 'Open Sans';
+    font-family: 'OpenSansRegular';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -31,7 +31,7 @@
 
 .contact .contact-form-item .contact-form__input::placeholder,
 .contact .contact-form-item .contact-form__textarea::placeholder{
-    font-family: 'Open Sans';
+    font-family: 'OpenSansRegular';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

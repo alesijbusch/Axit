@@ -1,5 +1,8 @@
 .about {
     margin: 70px -15px 60px -15px;
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
 }
 
 .about .about-block{
@@ -16,6 +19,7 @@
 }
 
 .about .about-block .about-block__title{
+    font-family: "OpenSansBold";
     text-align: center;
     font-weight: 700;
     font-size: 24px;

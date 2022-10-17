@@ -1,7 +1,9 @@
 .tabs{
     margin: 100px 0;
 }
-
+.tabs .tabs-list{
+    display: flex;
+}
 .tabs .tabs-list .tabs-list__item{
     font-family: 'OpenSansRegular', sans-serif;
     font-style: normal;
@@ -10,8 +12,8 @@
     line-height: 19px;
     text-transform: uppercase;
     color: #333333;
-    display: inline-block;
-    width: 230px;
+    /* display: inline-block; */
+    width: 233px;
     padding: 10px;
     box-sizing: border-box;
     cursor: pointer;
@@ -26,7 +28,8 @@
 }
 
 .tabs .tabs-content.active{
-    display: block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .tabs .tabs-content {
@@ -38,7 +41,7 @@
 
 .tabs .tabs-content .tabs-content-right{
     width: 693px;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 0 30px 0 100px;
     box-sizing: border-box;
     vertical-align: top;
@@ -46,7 +49,7 @@
 
 .tabs .tabs-content .tabs-content-right .tabs-content-right__title{
     margin-top: 55px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'OpenSansBold', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -67,7 +70,7 @@
 
 .tabs .tabs-content .tabs-content-left{
     width: 470px;
-    display: inline-block;
+    /* display: inline-block; */
     border-top: 1px solid #C6CBCD;
     height: 500px;
 }
@@ -76,5 +79,5 @@
     display: block;
     width: 100%;
     height: 100%;
-    padding-left: 1px;
+    /* padding-left: 1px; */
 }
