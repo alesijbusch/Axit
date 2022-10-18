@@ -6,6 +6,7 @@
     margin-top: 85px;
     display: flex;
     justify-content: space-between;   
+    flex-wrap: wrap;
 }
 
 .reviews .reviews-block{
@@ -36,7 +37,7 @@
 
 .reviews .reviews-block-user{
     display: flex;
-    margin-top: 65px;
+    margin-top: 45px;
 }
 
 .reviews .reviews-block-user .reviews-block-user__img{

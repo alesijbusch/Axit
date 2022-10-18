@@ -6,12 +6,14 @@
 .pricing {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 60px 0 50px;
     text-align: center;
 }
 
 .pricing .pricing-block {
-    flex-basis:  370px;
+    /* flex-basis:  370px; */
+    flex-basis: calc((100% / 3) - 20px);
     margin-top: 20px;
 }
 
