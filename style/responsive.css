@@ -384,6 +384,24 @@
     .contact {
         margin-top: 65px;
     }
+    .tabs {
+        margin: 75px 0;
+    }
+    .pricing-grey{
+        padding-top: 60px;
+    }
+    .pricing {
+        padding: 30px 0 40px;
+    }
+    .review {
+        margin: 60px 0 50px;
+    }
+    .design-padding{
+        padding: 60px 0 50px;
+    }
+    .contact-padding {
+        padding: 60px 0 50px;
+    }
 }
 
 @media (max-width: 768px){
@@ -523,6 +541,21 @@
     }
     .soc .soc-item .soc-item__link i {
         font-size: 32px;
+    }
+    .tabs {
+        margin: 75px 0;
+    }
+    .pricing-grey{
+        padding-top: 50px;
+    }
+    .review {
+        margin: 50px 0 50px;
+    }
+    .design-padding{
+        padding: 50px 0 50px;
+    }
+    .contact-padding {
+        padding: 50px 0 50px;
     }
 }
 
@@ -761,6 +794,18 @@
     .copy {
         font-size: 14px;
         line-height: 16px;
+    }
+    .pricing {
+        padding: 30px 0 30px;
+    }
+    .pricing-grey{
+        padding-top: 30px;
+    }
+    .design-padding{
+        padding: 30px 0 50px;
+    }
+    .contact-padding {
+        padding: 30px 0 40px;
     }
 }
 
