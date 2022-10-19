@@ -35,11 +35,18 @@
 
 .social .social-right{
     flex-basis: 670px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .social .social-right .social-right__link{
-    margin-right: 25px;
+    margin-right: 40px;
     text-decoration: none;
+    color: #ccc;
+}
+.social .social-right .social-right__link i{
+    font-size: 54px;
 }
 
 .social .social-right .social-right__link:last-child{

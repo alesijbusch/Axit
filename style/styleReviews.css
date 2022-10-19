@@ -10,7 +10,7 @@
 }
 
 .reviews .reviews-block{
-    flex-basis: 370px;
+    flex-basis: calc(100% / 3 - 20px);
 }
 
 .reviews .reviews-block .reviews-block__text{

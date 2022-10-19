@@ -1,22 +1,31 @@
 .footer{
     background-color: #000;
     padding: 32px 0 27px;
+    
 }
 
 .soc {
-    width: 635px;
-    margin: 0 auto;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .soc .soc-item{
-    display: inline-block;
-    margin-right: 33px;
-    
+    margin-right: 35px;
+}
+
+.soc .soc-item:last-child{
+    margin-right: 0;
 }
 
 .soc .soc-item .soc-item__link{
     text-decoration: none;
+    color: #CCCCCC;
+}
+
+.soc .soc-item .soc-item__link i{
+    font-size: 42px;
 }
 
 .copy{

@@ -1,6 +1,17 @@
-@media (max-width: 1600px){
+/* @media (max-width: 1600px){
+    .header{
+        height: 100%;
+    }
     .banner{
-        margin-top: 170px;
+        margin-top: 100px;
+    }
+} */
+@media (max-width: 1600px){
+    .header{
+        height: 100%;
+    }
+    .banner{
+        margin-top: 100px;
     }
 }
 @media (max-width: 1366px){
@@ -16,6 +27,9 @@
 }
 
 @media (max-width: 1199px){
+    .header{
+        height: 100vh;
+    }
     .banner .banner-left .banner-left__logo{
         width: 150px;
     }
@@ -71,16 +85,10 @@
     
     .social .social-right{
         flex-basis: 560px;
-        display: flex;
-        justify-content: flex-end;
-        flex-wrap: wrap;
     }
-    .social .social-right .social-right__link{
-        margin-right: 17px;
-    }
-    .social .social-right .social-right__link .social-right__img{
+    /* .social .social-right .social-right__link .social-right__img{
         width: 60px;
-    }
+    } */
     .social .social-item__title{
         font-size: 18px;
         line-height: 25px;
@@ -89,6 +97,12 @@
         font-size: 14px;
         line-height: 16px;
         margin-top: 13px;
+    }
+    .social .social-right .social-right__link i {
+        font-size: 46px;
+    }
+    .social .social-right .social-right__link{
+        margin-right: 35px;
     }
     .tabs .tabs-list .tabs-list__item{
         width: 193px;
@@ -148,7 +162,7 @@
         margin: 45px 10px 0;
     }
     .pricing .pricing-block {
-        flex-basis: calc((100% / 3) - 20px);
+        flex-basis: calc(100% / 3 - 20px);
     }
     .pricing{
         padding: 30px 0 50px;
@@ -162,7 +176,7 @@
         padding: 50px 20px;
     }
     .reviews .reviews-block {
-        flex-basis: calc((100% / 3) - 15px);
+        flex-basis: calc(100% / 3 - 15px);
     }
     .reviews .reviews-block-user .reviews-block-user__img{
         width: 63px;
@@ -181,6 +195,19 @@
     }
     .btn.btn-design{
         width: 318px;
+    }
+    .btn.btn-contact{
+        width: 318px;
+    }
+    .soc{
+        margin-bottom: 27px;
+    }
+    .soc .soc-item .soc-item__link i {
+        font-size: 39px;
+    }
+    .copy{
+        font-size: 18px;
+        line-height: 21px;
     }
 
 }
@@ -254,8 +281,11 @@
     .social .social-right .social-right__link{
         margin-right: 0;
     }
-    .social .social-right .social-right__link .social-right__img{
+    /* .social .social-right .social-right__link .social-right__img{
         width: 50px;
+    } */
+    .social .social-right .social-right__link i {
+        font-size: 40px;
     }
     .tabs .tabs-content .tabs-content-right{
         width: 400px;
@@ -297,7 +327,7 @@
         margin: 0;
     }
     .pricing .pricing-block {
-        flex-basis: calc((100% / 3) - 10px);
+        flex-basis: calc(100% / 3 - 10px);
     }
     .pricing .pricing-block .pricing-block__title{
         font-size: 20px;
@@ -327,7 +357,7 @@
         align-items: center;
     }
     .reviews .reviews-block {
-        flex-basis: calc((100% / 3) - 10px);
+        flex-basis: calc(100% / 3 - 10px);
     }
     .reviews .reviews-block .reviews-block__text{
         padding: 30px 15px;
@@ -344,6 +374,15 @@
     }
     .reviews .reviews-block-user .reviews-block-user-wrap .reviews-block-user-wrap__profession{
         margin-top: 10px;
+    }
+    .contact .contact-form-item .contact-form__textarea {
+        height: 183px;
+    }
+    .contact .contact-form-item .contact-form__input {
+        margin-bottom: 40px;
+    }
+    .contact {
+        margin-top: 65px;
     }
 }
 
@@ -406,9 +445,9 @@
     .social .social-right{
         flex-basis: 58%;
     }
-    .social .social-right .social-right__link .social-right__img{
+    /* .social .social-right .social-right__link .social-right__img{
         width: 44px;
-    }
+    } */
     .social .social-item__text{
         font-size: 13px;
     }
@@ -451,7 +490,7 @@
         justify-content: space-around;
     }
     .pricing .pricing-block {
-        flex-basis: calc((100% / 2) - 30px);
+        flex-basis: calc(50% - 30px);
     }
     .pricing .pricing-block{
         margin-top: 0;
@@ -464,7 +503,7 @@
         justify-content: space-around;
     }
     .reviews .reviews-block {
-        flex-basis: calc((100% / 2) - 15px);
+        flex-basis: calc(50% - 15px);
         margin-bottom: 30px;
     }
     .reviews .reviews-block:last-child{
@@ -473,8 +512,17 @@
     .reviews .reviews-block-user{
         margin-top: 35px;
     }
-    .btn.btn-design{
-        width: 100%;
+    .social .social-right .social-right__link i {
+        font-size: 35px;
+    }
+    .soc {
+        margin-bottom: 20px;
+    }
+    .soc .soc-item {
+        margin-right: 30px;
+    }
+    .soc .soc-item .soc-item__link i {
+        font-size: 32px;
     }
 }
 
@@ -530,7 +578,9 @@
         width: 100%;
         height: 50px;
     }
-
+    .btn.btn-design{
+        width: 100%;
+    }
     .free{
         margin-top: 56px;
         height: 381px;
@@ -581,11 +631,15 @@
     }
     .social .social-right .social-right__link{
         margin-right: 17px;
-    }
-    .social .social-right .social-right__link .social-right__img{
-        width: 26px;
         margin-top: 30px;
     }
+    .social .social-right .social-right__link i {
+        font-size: 28px;
+    }
+    /* .social .social-right .social-right__link .social-right__img{
+        width: 26px;
+        margin-top: 30px;
+    } */
     .tabs {
         margin: 40px 0;
     }
@@ -680,6 +734,33 @@
     }
     .design .design-button{
         margin-top: 50px;
+    }
+    .contact .contact-form-item .contact-form__textarea {
+        height: 200px;
+        margin-top: 50px;
+    }
+    .contact .contact-form-top{
+        display: block;
+    }
+    .btn.btn-contact {
+        width: 100%;
+    }
+    .soc{
+        justify-content: space-between;
+    }
+    .soc .soc-item .soc-item__link i {
+        font-size: 24px;
+    }
+    .soc .soc-item {
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+    .footer {
+        padding: 35px 0 40px;
+    }
+    .copy {
+        font-size: 14px;
+        line-height: 16px;
     }
 }
 
