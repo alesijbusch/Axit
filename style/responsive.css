@@ -807,6 +807,9 @@
     .contact-padding {
         padding: 30px 0 40px;
     }
+    .reviews .reviews-block {
+        margin-bottom: 50px;
+    }
 }
 
 @media (min-width: 576px){
