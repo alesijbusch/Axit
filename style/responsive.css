@@ -810,6 +810,26 @@
     .reviews .reviews-block {
         margin-bottom: 50px;
     }
+    .review {
+        margin: 50px 0 30px;
+    }
+    .reviews{
+        flex-wrap: nowrap;
+        justify-content: normal;
+    }
+    .reviews-wrap .swiper-pagination{
+        bottom: 5px;
+    }
+    .reviews-wrap .swiper-pagination-bullet{
+        background: transparent;
+        border: 1px solid #86878B;
+        margin: 0 25px!important;
+        opacity: 1;
+    }
+    .reviews-wrap .swiper-pagination-bullet.swiper-pagination-bullet-active{
+        background: #86878B;
+        border: 1px solid #86878B
+    }
 }
 
 @media (min-width: 576px){
