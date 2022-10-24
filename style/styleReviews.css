@@ -68,3 +68,7 @@
     line-height: 21px;
     margin-top: 20px;
 }
+
+.reviews-wrap.swiper{
+    z-index: 0;
+}
